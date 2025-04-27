@@ -46,6 +46,7 @@ const data = {
           "Bootstrap",
           "React",
           "Node.js",
+          "VITE",
           "Git",
           "MySQL",
           "AutoCAD",
@@ -58,7 +59,7 @@ const data = {
               "HTML - CSS",
             link: "https://github.com/YaredSD/entrega_proyecto_1.git",
             preview:
-              "https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww&w=500",
+              "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fHww",
           },
           {
             title: "Proyecto 2 - Portfolio",

@@ -1,0 +1,149 @@
+main > #work-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+main > #work-experience > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  padding: 18px;
+}
+
+main > #work-experience > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 15px;
+    border-top: #716a6a solid 6px;
+    border-bottom: #716a6a solid 6px;
+    background-color: rgb(49, 44, 44);
+    border-radius: 10%;
+    width: 20%;
+}
+
+main > #skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+main > #skills > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 15px;
+    border-top: #716a6a solid 6px;
+    border-bottom: #716a6a solid 6px;
+    background-color: rgb(49, 44, 44);
+    border-radius: 10%;;
+
+}
+
+main > #skills > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+main > #skills > ul > li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15%;
+    margin:5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+main > #skills > ul > li:hover {
+    background-color: rgb(49, 44, 44);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+
+main > #projects {
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+main > #projects > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+main > #projects > div > img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+main > #projects > div > img:hover {
+    transform: scale(1.05);
+    border-color: rgb(49, 44, 44);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10%;
+}
+
+main > #projects > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 15px;
+    border-top: #716a6a solid 6px;
+    border-bottom: #716a6a solid 6px;
+    background-color: rgb(49, 44, 44);
+    border-radius: 10%;
+}
+
+main > #projects > div > p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 7px;
+    margin: 10px;
+}
+
+main > #projects > div > a {    
+    text-decoration: none;
+    cursor: pointer;
+}
